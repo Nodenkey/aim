@@ -1,0 +1,116 @@
+#about-header {
+  padding: 5em 0;
+}
+
+.about-header {
+  align-items: center;
+}
+
+.about-header h1 {
+  margin-bottom: 30px;
+}
+
+#meet-the-team {
+  padding: 5em 0;
+}
+
+#meet-the-team h2 {
+  margin-bottom: 30px;
+}
+
+#about-projects {
+ padding: 5em 0;
+}
+
+#about-projects h2 {
+  margin-bottom: 30px;
+}
+
+#about-social-handles {
+  padding: 5em 0;
+}
+
+.about-social-handles {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.about-social-handles > span {
+  padding: 0 20px;
+  font-size: 30px;
+}
+
+.facebook:hover {
+  color: #3b5999;
+  cursor: pointer;
+}
+
+.twitter:hover {
+  color: #55acee;
+  cursor: pointer;
+}
+
+.youtube:hover {
+  color: #cd201f;
+  cursor: pointer;
+}
+
+.slider-img {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  display: block;
+  border-radius: 50%;
+}
+
+.slider-caption {
+  position: relative !important;
+  margin-top: 20px !important;
+  text-align:center;
+  left: 0 !important;
+  right: 0 !important;
+}
+
+.about-card {
+  border: none !important;
+  box-shadow: 0px 5px 5px #111;
+}
+
+.about-card-body {
+  background: #333;
+  padding: 3em 1.25em !important;
+  text-align: center;
+}
+
+/* Media queries */
+@media screen and (max-width: 600px) {
+  #about-header {
+    padding: 2.5em 0;
+  }
+
+  .about-header h1 {
+    font-size: 36px;
+  }
+
+  .about-header img {
+    margin-bottom: 30px;
+  }
+
+  #meet-the-team {
+    padding: 2.5em 0;
+  }
+
+  #about-projects {
+    padding: 2.5em 0;
+   }
+
+  .about-card-wrapper {
+    margin-bottom: 30px;
+  }
+
+  .carousel-item > .d-none {
+    display: block !important;
+  }
+}

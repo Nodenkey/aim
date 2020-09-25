@@ -1,0 +1,40 @@
+.header {
+  align-items: center;
+}
+
+#google-map {
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+
+#contact-social-handles {
+  padding: 5em 0;
+}
+
+.contact-social-handles {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-social-handles > span {
+  padding: 0 20px;
+  font-size: 30px;
+}
+
+.facebook:hover {
+  color: #3b5999;
+  cursor: pointer;
+}
+
+.twitter:hover {
+  color: #55acee;
+  cursor: pointer;
+}
+
+.youtube:hover {
+  color: #cd201f;
+  cursor: pointer;
+}

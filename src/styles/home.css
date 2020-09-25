@@ -1,0 +1,80 @@
+/* header section */
+#header {
+  padding: 5em 0;
+}
+
+.header {
+  align-items: center;
+}
+
+.header h1 {
+  margin-bottom: 20px;
+}
+
+.title p {
+  font-size: 20px;
+}
+
+/* what-we-do section */
+#what-we-do {
+  padding: 5em 0;
+}
+
+.what-we-do {
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.what-we-do img {
+  width: 474px;
+  height: 320px;
+}
+
+/* activities section */
+#activities {
+  padding: 5em 0;
+  background: #f4f6f6;
+  color: #000;
+}
+
+.activity .card {
+  color: #f4f6f6 !important;
+  background: #b83b5e;
+  text-align: center;
+}
+
+.activity .card-title {
+  padding: 2em 0;
+}
+
+/* news and update section */
+#news-and-update {
+  padding: 5em 0;
+}
+
+/* partnership section */
+#partnership {
+  padding: 5em 0;
+}
+
+#partnership img {
+  height: 300px;
+}
+
+/* training section */
+#training {
+  padding: 5em 0;
+}
+
+/* Media Queries */
+@media screen and (max-width: 600px) {
+  .what-we-do {
+    margin-bottom: 30px;
+  }
+
+  #partnership img {
+    display: inline-block;
+    widows: 30px;
+    margin-bottom: 30px;
+  }
+}
