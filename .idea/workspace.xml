@@ -2,154 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6a38146-0eef-40de-8664-7dd337dc7b30" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gatsby-browser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gatsby-node.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gatsby-ssr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/icon-144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/icon-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/icon-256x256.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/icon-384x384.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/icon-48x48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/icon-512x512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/icon-72x72.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/icon-96x96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/manifest.webmanifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/page-data/404.html/page-data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/page-data/404/page-data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/page-data/about/page-data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/page-data/blog/page-data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/page-data/contact/page-data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/page-data/dev-404-page/page-data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/page-data/donate/page-data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/page-data/gallery/page-data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/page-data/index/page-data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/page-data/sq/d/1493668021.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/page-data/sq/d/1512372111.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/page-data/sq/d/1759385595.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/page-data/sq/d/217337812.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/page-data/sq/d/2291253975.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/page-data/sq/d/2324716076.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/page-data/sq/d/2364388036.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/page-data/sq/d/2453864576.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/page-data/sq/d/2576981743.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/page-data/sq/d/2580847379.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/page-data/sq/d/3049238177.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/page-data/sq/d/3080261404.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/page-data/sq/d/3202739854.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/page-data/sq/d/3276866296.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/page-data/sq/d/357348608.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/page-data/sq/d/3649515864.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/page-data/sq/d/3940444261.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/page-data/sq/d/423558393.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/page-data/sq/d/60184542.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/page-data/sq/d/63159454.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/page-data/sq/d/749731994.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/page-data/using-typescript/page-data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/08f88032c788a16ad483015c49b8cb43/578e8/jamal.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/0f766bb0fd0ad730a66b60063c8da7f9/497c6/trestle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/1386cdc1c5a6e0f428950f10d8ab174a/32fd5/samuel.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/1386cdc1c5a6e0f428950f10d8ab174a/9dc27/samuel.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/1386cdc1c5a6e0f428950f10d8ab174a/e15b6/samuel.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/20d1adcf3d8c1638a3a1a3c6e9c02c39/61e93/wonders.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/307e9ab975ca83c98144aab2648dded7/10d63/trestle.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/307e9ab975ca83c98144aab2648dded7/32fd5/trestle.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/307e9ab975ca83c98144aab2648dded7/4fe8c/trestle.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/307e9ab975ca83c98144aab2648dded7/9dc27/trestle.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/325d07f504be9afaf152e0e01b445bbb/23866/workshop.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/48fc66cccaa9579567aa17ba1d919878/79c91/apati.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/641d044c3448dba8015b282db228213c/6a059/trainings.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/641d044c3448dba8015b282db228213c/a9b2a/trainings.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/641d044c3448dba8015b282db228213c/ea7dd/trainings.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/641d044c3448dba8015b282db228213c/f7dca/trainings.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/969df96f74a00140beef845f84fe40b5/4d702/josh.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/969df96f74a00140beef845f84fe40b5/978bd/josh.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/969df96f74a00140beef845f84fe40b5/aa9e7/josh.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/969df96f74a00140beef845f84fe40b5/dc072/josh.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/9e6a6278ac8c6bdc7208c97f06fdf7aa/23866/ml-registry.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/a08e82de7299e189cab9a733f7664a61/76d5d/aseda.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/a42028a4cb47ad226d751b166dc0e50f/a1fe4/fun-hungouts.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/a69ae7aa02f312087f4c9905e3ef179d/6a059/workshop.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/a69ae7aa02f312087f4c9905e3ef179d/a9b2a/workshop.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/a69ae7aa02f312087f4c9905e3ef179d/ea7dd/workshop.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/a69ae7aa02f312087f4c9905e3ef179d/f7dca/workshop.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/ad1d6f6facfe0177138830bf2dcbd5ef/1f5c5/dan.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/afc43eeb6b4c3d678e1844c67b96ead9/09f47/simon.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/b5c51c6c96b3059ab1d23a39ae0d18cc/a1fe4/training.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/ba435b2adf709ef3e4c02889c43676fd/6a059/fun-hangouts.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/ba435b2adf709ef3e4c02889c43676fd/a9b2a/fun-hangouts.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/ba435b2adf709ef3e4c02889c43676fd/ea7dd/fun-hangouts.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/ba435b2adf709ef3e4c02889c43676fd/f7dca/fun-hangouts.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/bd43accac6fd8a461ba041db541ca1c6/69585/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/d49c9fd70193096f1763e73b33eae502/a1fe4/social-impact.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/f0df1c74e516b8af3a22d87828cfb1e4/6a059/us.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/f0df1c74e516b8af3a22d87828cfb1e4/a9b2a/us.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/f0df1c74e516b8af3a22d87828cfb1e4/ea7dd/us.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/f0df1c74e516b8af3a22d87828cfb1e4/f7dca/us.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Map/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/footer/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/layout.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/layout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navbar/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navbar/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/seo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/ai.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/apati.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/aseda.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/bruce.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/build.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/chatbot.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/collaborate.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/contact-us.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/contact.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/dan.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/fun-hangouts.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/fun-hungouts.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/gatsby-astronaut.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/gatsby-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/innovate.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/jamal.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/josh.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/logo.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/ml-registry.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/program.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/samuel.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/simon.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/social-impact.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/social-impact.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/team.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/training.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/training.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/trainings.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/trestle.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/trestle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/us.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/who-we-are.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/wonders.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/workshop.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/workshop.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/404.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/about.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/blog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/contact.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/donate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/gallery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/using-typescript.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/about.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/blog.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/contact.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/donate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/gallery.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon-32x32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/icon-144x144.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/icon-144x144.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/icon-192x192.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/icon-192x192.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/icon-256x256.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/icon-256x256.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/icon-384x384.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/icon-384x384.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/icon-48x48.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/icon-48x48.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/icon-512x512.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/icon-512x512.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/icon-72x72.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/icon-72x72.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/icon-96x96.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/icon-96x96.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.webmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.webmanifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page-data/about/page-data.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/page-data/about/page-data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page-data/index/page-data.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/page-data/index/page-data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page-data/register/page-data.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/page-data/register/page-data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page-data/sq/d/63159454.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/page-data/sq/d/63159454.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page-data/using-typescript/page-data.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/page-data/using-typescript/page-data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/register.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601038442854</updated>
-      <workItem from="1601038444125" duration="13313000" />
+      <workItem from="1601038444125" duration="14950000" />
     </task>
     <servers />
   </component>

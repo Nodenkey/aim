@@ -7,6 +7,7 @@ import Img from "gatsby-image";
 import "../styles/about.css";
 import Layout from "../components/layout";
 import {graphql, useStaticQuery} from "gatsby";
+import SEO from "../components/seo";
 
 const About = () => {
 
@@ -105,6 +106,7 @@ const About = () => {
 
   return (
     <Layout>
+      <SEO title='About us'/>
       <section id="about-header">
         <div className="container">
           <div className="row about-header">

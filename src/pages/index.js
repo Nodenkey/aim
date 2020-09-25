@@ -9,10 +9,9 @@ import ai from "../images/chatbot.svg";
 import collaborate from "../images/team.svg";
 import innovate from "../images/innovate.svg";
 import build from "../images/program.svg";
-// import trestle from "../../../assets/trestle.jpeg";
-
 import "../styles/home.css";
 import Layout from "../components/layout";
+import SEO from "../components/seo";
 
 const Home = () => {
   const images = useStaticQuery(graphql`
@@ -54,6 +53,7 @@ const Home = () => {
 
   return (
     <Layout>
+      <SEO title="Home"/>
       <section id="header">
         <div className="container">
           <div className="row header">

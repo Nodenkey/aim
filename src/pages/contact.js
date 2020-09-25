@@ -8,6 +8,7 @@ import contactUs from "../images/contact.svg";
 
 import "../styles/contact.css";
 import Layout from "../components/layout";
+import SEO from "../components/seo";
 
 const Contact = () => {
 
@@ -18,6 +19,7 @@ const Contact = () => {
   };
   return (
     <Layout>
+      <SEO title='Contact us'/>
       <section id="header">
         <div className="container">
           <div className="row header">
