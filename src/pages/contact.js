@@ -82,7 +82,7 @@ const Contact = () => {
       </section>
       <section id="google-map">
         <div className="container">
-          <div className="col-md-12">
+          <div className="col-md-12" style={{padding: 0}}>
             <GoogleApiWrapper />
           </div>
         </div>

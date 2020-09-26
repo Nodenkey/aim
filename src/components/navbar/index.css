@@ -30,3 +30,7 @@ ul.navbar-nav li.nav-item a.nav-link:hover {
   margin-right: auto;
   height: 2px;
 }
+
+.active-nav {
+  color: #bcbcbc !important;
+}

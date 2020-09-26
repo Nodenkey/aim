@@ -2,28 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6a38146-0eef-40de-8664-7dd337dc7b30" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/aim.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon-32x32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icons/icon-144x144.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/icon-144x144.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icons/icon-192x192.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/icon-192x192.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icons/icon-256x256.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/icon-256x256.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icons/icon-384x384.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/icon-384x384.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icons/icon-48x48.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/icon-48x48.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icons/icon-512x512.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/icon-512x512.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icons/icon-72x72.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/icon-72x72.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icons/icon-96x96.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/icon-96x96.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.webmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.webmanifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/page-data/about/page-data.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/page-data/about/page-data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/page-data/index/page-data.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/page-data/index/page-data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/page-data/register/page-data.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/page-data/register/page-data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/page-data/sq/d/63159454.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/page-data/sq/d/63159454.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/page-data/using-typescript/page-data.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/page-data/using-typescript/page-data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Map/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Map/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navbar/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navbar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/donate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/donate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/gallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/gallery.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +35,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -65,7 +58,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601038442854</updated>
-      <workItem from="1601038444125" duration="14950000" />
+      <workItem from="1601038444125" duration="15083000" />
+      <workItem from="1601113406881" duration="1618000" />
     </task>
     <servers />
   </component>

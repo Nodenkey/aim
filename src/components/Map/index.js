@@ -3,7 +3,7 @@ import { Map, GoogleApiWrapper,InfoWindow, Marker } from 'google-maps-react';
 
 const mapStyles = {
   width: '100%',
-  height: '400px'
+  height: '400px',
 };
 
 export class MapContainer extends Component {
@@ -37,7 +37,7 @@ export class MapContainer extends Component {
         zoom={14}
         style={mapStyles}
         initialCenter={{
-         lat: 5.650497398, 
+         lat: 5.650497398,
          lng: -0.185499258
         }}
       >
