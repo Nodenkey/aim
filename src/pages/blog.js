@@ -3,6 +3,7 @@ import {graphql, Link, useStaticQuery} from "gatsby"
 
 import '../styles/blog.css';
 import Layout from "../components/layout";
+import SEO from "../components/seo";
 
 const Blog = () => {
 
@@ -27,6 +28,7 @@ const Blog = () => {
 
     return (
         <Layout>
+            <SEO title='Blog'/>
             <div className="container blog-wrapper">
                 <h1 style={{marginBottom: '2rem'}}>Blog Posts</h1>
                 <ol className="list-container">

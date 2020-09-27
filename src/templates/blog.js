@@ -3,6 +3,7 @@ import Layout from "../components/layout";
 import {graphql} from "gatsby";
 import {documentToReactComponents} from "@contentful/rich-text-react-renderer";
 import "../styles/blog-template.css";
+import SEO from "../components/seo";
 
 
 export const query = graphql`
@@ -33,6 +34,7 @@ const Blog = (props) => {
 
     return (
         <Layout>
+            <SEO title={props.data.contentfulBlogPost.title}/>
             <div className="container" style={{margin: "100px auto"}}>
                 <div style={{marginBottom: 100}}>
                     <h1>{props.data.contentfulBlogPost.title}</h1>
