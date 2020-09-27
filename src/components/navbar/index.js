@@ -43,11 +43,11 @@ const Navbar = () => {
                   Home <span className="sr-only">(current)</span>
                 </Link>
               </li>
-              {/* <li className="nav-item">
-                <Link className="nav-link" to="/blog">
+              <li className="nav-item">
+                <Link className="nav-link" activeClassName="active-nav" to="/blog">
                   Blog
                 </Link>
-              </li> */}
+              </li>
               <li className="nav-item">
                 <Link className="nav-link" activeClassName="active-nav" to="/register">
                   Register

@@ -2,11 +2,6 @@
   padding: 5em 0;
 }
 
-.lock {
-  color: #fff;
-  font-size: 30px;
-}
-
 .blog-header {
   display: flex;
   flex-direction: column;
@@ -14,3 +9,42 @@
   height: 30vh;
   justify-content: center;
 }
+
+.blog-wrapper {
+  padding: 100px 0;
+  color: white;
+}
+
+.list-container {
+  margin: 0;
+  padding: 0;
+}
+
+.post-item {
+  list-style-type: none;
+  padding: 0;
+}
+
+.post-link {
+  color: white;
+  background-color: rgb(22, 109, 150);
+  display: block;
+  margin-bottom: 4rem;
+  padding: 2rem;
+  /*max-width: 700px;*/
+  margin-left: 0;
+  transition: 300ms ease-in-out;
+}
+
+.post-link:hover{
+  color: white;
+  text-decoration: none;
+  background-color: rgb(21, 102, 140);
+}
+
+.post-date {
+  color: #bcbcbc;
+  font-style: italic;
+}
+
+

@@ -2,20 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6a38146-0eef-40de-8664-7dd337dc7b30" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/aim.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env.development" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/page-data/blog/contentful/page-data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/page-data/blog/first-post/page-data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/page-data/blog/second-blog/page-data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/page-data/blog/trestle/page-data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/page-data/sq/d/1395537454.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/blog-template.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/blog.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-node.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page-data/blog/page-data.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/page-data/blog/page-data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page-data/dev-404-page/page-data.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/page-data/dev-404-page/page-data.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/page-data/using-typescript/page-data.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/page-data/using-typescript/page-data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Map/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Map/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navbar/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/navbar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/donate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/donate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/gallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/gallery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blog.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +57,11 @@
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/styles" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -59,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601038442854</updated>
       <workItem from="1601038444125" duration="15083000" />
-      <workItem from="1601113406881" duration="1618000" />
+      <workItem from="1601113406881" duration="10086000" />
     </task>
     <servers />
   </component>
@@ -70,9 +82,25 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="378" y="152" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601040097430">
+    <state x="378" y="152" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601165717346">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="378" y="152" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800@0.0.1280.800" timestamp="1601040097430" />
+    <state x="378" y="152" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800@0.0.1280.800" timestamp="1601165717345" />
+    <state width="1259" height="192" key="GridCell.Tab.0.bottom" timestamp="1601163011133">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1259" height="192" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1601163011133" />
+    <state width="1259" height="192" key="GridCell.Tab.0.center" timestamp="1601163011131">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1259" height="192" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1601163011131" />
+    <state width="1259" height="192" key="GridCell.Tab.0.left" timestamp="1601163011130">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1259" height="192" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1601163011130" />
+    <state width="1259" height="192" key="GridCell.Tab.0.right" timestamp="1601163011132">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1259" height="192" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1601163011132" />
   </component>
 </project>
