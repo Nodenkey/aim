@@ -2,8 +2,10 @@ import React from 'react';
 import Layout from "../components/layout";
 import {graphql} from "gatsby";
 import {documentToReactComponents} from "@contentful/rich-text-react-renderer";
+import { INLINES } from "@contentful/rich-text-types";
 import "../styles/blog-template.css";
 import SEO from "../components/seo";
+import Code from "../components/codeDisplay";
 
 
 export const query = graphql`
@@ -28,7 +30,11 @@ const Blog = (props) => {
                 const alt = node.data.target.fields.title["en-US"];
                 const url= node.data.target.fields.file["en-US"].url;
                 return <img className="blog-image" alt={alt} src={url}/>
-            }
+            },
+            [INLINES.EMBEDDED_ENTRY]: node => {
+                const markdown = node.data.target.fields.snippet["en-US"];
+                return <Code markdown={markdown}/>;
+            },
         }
     }
 
