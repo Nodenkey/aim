@@ -70,10 +70,6 @@ function SEO({ description, lang, meta, title }) {
         },
       ].concat(meta)}
     >
-      <link
-          href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/themes/prism.min.css"
-          rel="stylesheet"
-      />
     </Helmet>
   )
 }
