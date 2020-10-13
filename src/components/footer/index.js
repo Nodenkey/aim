@@ -4,9 +4,9 @@ const Footer = () => {
   return (
     <section id="footer">
       <div className="container">
-        <div className="row text-center">
+        <div className="text-center row">
           <div className="col-md-12">
-            <p>&copy; 2019 Artificial Intelligence Movement</p>
+            <p>&copy; {new Date().getFullYear()} Trestle Academy Ghana</p>
           </div>
         </div>
       </div>

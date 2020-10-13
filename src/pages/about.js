@@ -1,116 +1,118 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {faFacebook, faTwitter, faYoutube} from "@fortawesome/free-brands-svg-icons";
+import {
+  faFacebook,
+  faTwitter,
+  faYoutube,
+} from "@fortawesome/free-brands-svg-icons";
 import Img from "gatsby-image";
-
 
 import "../styles/about.css";
 import Layout from "../components/layout";
-import {graphql, useStaticQuery} from "gatsby";
+import { graphql, useStaticQuery } from "gatsby";
 import SEO from "../components/seo";
 
 const About = () => {
-
   const images = useStaticQuery(graphql`
     query {
-        weare: file(relativePath: {eq: "us.jpg"}) {
-            id
-            childImageSharp {
-            fluid(maxWidth: 5000) {
-                ...GatsbyImageSharpFluid
+      weare: file(relativePath: { eq: "us.jpg" }) {
+        id
+        childImageSharp {
+          fluid(maxWidth: 5000) {
+            ...GatsbyImageSharpFluid
+          }
         }
+      }
+      dan: file(relativePath: { eq: "dan.webp" }) {
+        id
+        childImageSharp {
+          fluid(maxWidth: 5000) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      wonders: file(relativePath: { eq: "wonders.webp" }) {
+        id
+        childImageSharp {
+          fluid(maxWidth: 5000) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      samuel: file(relativePath: { eq: "samuel.jpeg" }) {
+        id
+        childImageSharp {
+          fluid(maxWidth: 5000) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      jamal: file(relativePath: { eq: "jamal.webp" }) {
+        id
+        childImageSharp {
+          fluid(maxWidth: 5000) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      apati: file(relativePath: { eq: "apati.webp" }) {
+        id
+        childImageSharp {
+          fluid(maxWidth: 5000) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      aseda: file(relativePath: { eq: "aseda.webp" }) {
+        id
+        childImageSharp {
+          fluid(maxWidth: 5000) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      josh: file(relativePath: { eq: "josh.webp" }) {
+        id
+        childImageSharp {
+          fluid(maxWidth: 5000) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      simon: file(relativePath: { eq: "simon.webp" }) {
+        id
+        childImageSharp {
+          fluid(maxWidth: 5000) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      registry: file(relativePath: { eq: "ml-registry.webp" }) {
+        id
+        childImageSharp {
+          fluid(maxWidth: 5000) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      workshop: file(relativePath: { eq: "workshop.webp" }) {
+        id
+        childImageSharp {
+          fluid(maxWidth: 5000) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
     }
-  }
-        dan: file(relativePath: {eq: "dan.webp"}) {
-                  id
-                  childImageSharp {
-                  fluid(maxWidth: 5000) {
-                      ...GatsbyImageSharpFluid
-              }
-          }
-        } 
-       wonders: file(relativePath: {eq: "wonders.webp"}) {
-                  id
-                  childImageSharp {
-                  fluid(maxWidth: 5000) {
-                      ...GatsbyImageSharpFluid
-              }
-          }
-       }       
-       samuel: file(relativePath: {eq: "samuel.jpeg"}) {
-                  id
-                  childImageSharp {
-                  fluid(maxWidth: 5000) {
-                      ...GatsbyImageSharpFluid
-              }
-          }
-       }
-       jamal: file(relativePath: {eq: "jamal.webp"}) {
-                  id
-                  childImageSharp {
-                  fluid(maxWidth: 5000) {
-                      ...GatsbyImageSharpFluid
-              }
-          }
-       }
-       apati: file(relativePath: {eq: "apati.webp"}) {
-                  id
-                  childImageSharp {
-                  fluid(maxWidth: 5000) {
-                      ...GatsbyImageSharpFluid
-              }
-          }
-       }
-       aseda: file(relativePath: {eq: "aseda.webp"}) {
-                  id
-                  childImageSharp {
-                  fluid(maxWidth: 5000) {
-                      ...GatsbyImageSharpFluid
-              }
-          }
-       }
-       josh: file(relativePath: {eq: "josh.webp"}) {
-                  id
-                  childImageSharp {
-                  fluid(maxWidth: 5000) {
-                      ...GatsbyImageSharpFluid
-              }
-          }
-       }
-       simon: file(relativePath: {eq: "simon.webp"}) {
-                  id
-                  childImageSharp {
-                  fluid(maxWidth: 5000) {
-                      ...GatsbyImageSharpFluid
-              }
-          }
-       }
-       registry: file(relativePath: {eq: "ml-registry.webp"}) {
-                  id
-                  childImageSharp {
-                  fluid(maxWidth: 5000) {
-                      ...GatsbyImageSharpFluid
-              }
-          }
-       }
-       workshop: file(relativePath: {eq: "workshop.webp"}) {
-                  id
-                  childImageSharp {
-                  fluid(maxWidth: 5000) {
-                      ...GatsbyImageSharpFluid
-              }
-          }
-       }
- }
- `);
+  `);
 
   return (
     <Layout>
-      <SEO title='About us'/>
+      <SEO title="About us" />
       <section id="about-header">
         <div className="container">
           <div className="row about-header">
-            <div className="col-md-6 order-2 order-md-1">
+            <div className="order-2 col-md-6 order-md-1">
               <h1>Who we are</h1>
               <p>
                 Trestle Academy -Ghana(TAG) is a non-profit that is helping
@@ -129,7 +131,11 @@ const About = () => {
               </i>
             </div>
             <div className="col-md-6">
-              <Img fluid={images.weare.childImageSharp.fluid} className="img-fluid" alt="who we are" />
+              <Img
+                fluid={images.weare.childImageSharp.fluid}
+                className="img-fluid"
+                alt="who we are"
+              />
             </div>
           </div>
         </div>
@@ -142,7 +148,7 @@ const About = () => {
               <p className="text-center">
                 Our team of dedicated, passionate and enthusiastic individuals
                 from different background ensures your time with us is most
-                fruitful and exciting
+                fruitful and exciting.
               </p>
               <div
                 id="carouselExampleCaptions"
@@ -186,7 +192,11 @@ const About = () => {
                 </ol>
                 <div className="carousel-inner">
                   <div className="carousel-item active">
-                    <Img fluid={images.dan.childImageSharp.fluid} className="slider-img" alt="..." />
+                    <Img
+                      fluid={images.dan.childImageSharp.fluid}
+                      className="slider-img"
+                      alt="..."
+                    />
                     <div className="carousel-caption d-none d-md-block slider-caption">
                       <h5>Boadzie Daniel</h5>
                       <p>Director | Lead Instructor (AI Engineer).</p>
@@ -397,22 +407,13 @@ const About = () => {
             <div className="col-md-12">
               <div className="about-social-handles">
                 <span>
-                  <FontAwesomeIcon
-                    icon={faFacebook}
-                    className="facebook"
-                  />
+                  <FontAwesomeIcon icon={faFacebook} className="facebook" />
                 </span>
                 <span>
-                  <FontAwesomeIcon
-                    icon={faTwitter}
-                    className="twitter"
-                  />
+                  <FontAwesomeIcon icon={faTwitter} className="twitter" />
                 </span>
                 <span>
-                  <FontAwesomeIcon
-                    icon={faYoutube}
-                    className="youtube"
-                  />
+                  <FontAwesomeIcon icon={faYoutube} className="youtube" />
                 </span>
               </div>
             </div>
