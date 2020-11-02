@@ -47,7 +47,7 @@ const Home = () => {
           }
         }
       } 
-      hackathon: file(relativePath: { eq: "hackathon.jpeg" }) {
+      hackathon: file(relativePath: { eq: "hackathon.jpg" }) {
         id
         childImageSharp {
           fluid(maxWidth: 5000) {
@@ -181,10 +181,24 @@ const Home = () => {
                                     alt="..."
                                 />
                             </div>
-                            <p>
-                                To register for the upcoming hackathon event which comes off on the 2nd of November 2020, kindly  sign up using the registration link below
-                            </p>
-                            <a href="http://bit.ly/TAGHACKATHON2020" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
+                            <h2 style={{marginBottom: 30}}>Data Science and Machine Learning Hackathon</h2>
+                            <div style={{textAlign: 'left', color: '#eeeeee', maxWidth: 900, margin: '0 auto 30px'}}>
+                                <p>
+                                    Trestle Academy Ghana presents to you an exciting 5-day Data Science and Machine
+                                    Learning Hackathon. The focus application areas would be in Health and Finance. Do
+                                    you
+                                    have any interesting ideas in these areas? Register now and stand the chance to win
+                                    $10,000 worth of support to implement your solution and turn it into a business.
+                                </p>
+                                <p>
+                                    Deadline for registration: 5th November, 2020
+                                </p>
+                                <p>
+                                    Event timeline: 9th - 14th November, 2020
+                                </p>
+                            </div>
+                            <a href="http://bit.ly/TAGHACKATHON2020" target="_blank" rel="noopener noreferrer"
+                               className="btn btn-primary">
                                 Register
                             </a>
                         </div>
