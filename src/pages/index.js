@@ -1,7 +1,6 @@
 import React from "react";
-import {Link} from "gatsby";
+import {graphql, Link, useStaticQuery} from "gatsby";
 import Img from "gatsby-image";
-import {graphql, useStaticQuery} from "gatsby";
 
 /* Static images */
 import ai from "../images/chatbot.svg";
@@ -47,7 +46,7 @@ const Home = () => {
           }
         }
       } 
-      hackathon: file(relativePath: { eq: "hackathon.jpg" }) {
+      hackathon: file(relativePath: { eq: "hackathon.png" }) {
         id
         childImageSharp {
           fluid(maxWidth: 5000) {
@@ -181,23 +180,15 @@ const Home = () => {
                                     alt="..."
                                 />
                             </div>
-                            <h2 style={{marginBottom: 30}}>Data Science and Machine Learning Hackathon</h2>
+                            <h2 style={{marginBottom: 30}}>Object detection 404 bootcamp</h2>
                             <div style={{textAlign: 'left', color: '#eeeeee', maxWidth: 900, margin: '0 auto 30px'}}>
                                 <p>
-                                    Trestle Academy Ghana presents to you an exciting 5-day Data Science and Machine
-                                    Learning Hackathon. The focus application areas would be in Health and Finance. Do
-                                    you
-                                    have any interesting ideas in these areas? Register now and stand the chance to win
-                                    $10,000 worth of support to implement your solution and turn it into a business.
-                                </p>
-                                <p>
-                                    Deadline for registration: 5th November, 2020
-                                </p>
-                                <p>
-                                    Event timeline: 9th - 14th November, 2020
+                                    Want to build your next startup or dive into the world of object Detection?
+                                    Join us as we learn all about object detection and build a community project on the
+                                    22nd-23rd of April 2021 at Adjiringanor, East Legon at 9am to 2pm.
                                 </p>
                             </div>
-                            <a href="http://bit.ly/TAGHACKATHON2020" target="_blank" rel="noopener noreferrer"
+                            <a href="http://bit.ly/404Bootcamp" target="_blank" rel="noopener noreferrer"
                                className="btn btn-primary">
                                 Register
                             </a>

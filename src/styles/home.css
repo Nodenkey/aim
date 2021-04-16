@@ -66,6 +66,7 @@
   padding: 5em 0;
 }
 
+
 /* Media Queries */
 @media screen and (max-width: 600px) {
   .what-we-do {
@@ -74,7 +75,7 @@
 
   #partnership img {
     display: inline-block;
-    widows: 30px;
+    width: 30px;
     margin-bottom: 30px;
   }
 }
