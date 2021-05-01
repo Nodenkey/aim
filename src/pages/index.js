@@ -46,7 +46,7 @@ const Home = () => {
           }
         }
       } 
-      hackathon: file(relativePath: { eq: "hackathon.png" }) {
+      hackathon: file(relativePath: { eq: "hackathon.jpg" }) {
         id
         childImageSharp {
           fluid(maxWidth: 5000) {
@@ -180,15 +180,22 @@ const Home = () => {
                                     alt="..."
                                 />
                             </div>
-                            <h2 style={{marginBottom: 30}}>Object detection 404 bootcamp</h2>
+                            <h2 style={{marginBottom: 30}}>Computer vision in customer service hackathon</h2>
                             <div style={{textAlign: 'left', color: '#eeeeee', maxWidth: 900, margin: '0 auto 30px'}}>
                                 <p>
-                                    Want to build your next startup or dive into the world of object Detection?
-                                    Join us as we learn all about object detection and build a community project on the
-                                    22nd-23rd of April 2021 at Adjiringanor, East Legon at 9am to 2pm.
+                                    As Ghana takes steps to digitize it's economy and improve business operations in the
+                                    country, customer service operations becomes the core of this digital transformation
+                                    agenda. This hackathon therefore seeks to leverage the emerging Artificial
+                                    Intelligence techniques and tools in providing efficient and secure customer service
+                                    experiences in commercial establishments in the country.
+                                </p>
+                                <p>
+                                    How can we deliver excellent customer service using computer vision?
+                                    If got any ideas, apply to the Trestle Academy Hackathon to get the opportunity to
+                                    develop your products with 4IR, an AI company based in Switzerland.
                                 </p>
                             </div>
-                            <a href="http://bit.ly/404Bootcamp" target="_blank" rel="noopener noreferrer"
+                            <a href="http://bit.ly/taghackathon21" target="_blank" rel="noopener noreferrer"
                                className="btn btn-primary">
                                 Register
                             </a>

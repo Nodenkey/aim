@@ -2,22 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6a38146-0eef-40de-8664-7dd337dc7b30" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/page-data/sq/d/2765582563.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/14d566e95776f5a971536f58b14e5c96/bfb51/hackathon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/14d566e95776f5a971536f58b14e5c96/ed396/hackathon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/hackathon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/105ad591b05e73866cf2e89923abb939/a41d1/hackathon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/105ad591b05e73866cf2e89923abb939/f7dca/hackathon.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/page-data/blog/artificial-intelligence-must-know/page-data.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/page-data/blog/artificial-intelligence-must-know/page-data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/page-data/blog/data-science-must-know/page-data.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/page-data/blog/data-science-must-know/page-data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/page-data/blog/machine-learning-must-know/page-data.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/page-data/blog/machine-learning-must-know/page-data.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/page-data/index/page-data.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/page-data/index/page-data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/page-data/sq/d/1493668021.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/page-data/sq/d/1493668021.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/page-data/sq/d/2453864576.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/page-data/sq/d/2453864576.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page-data/sq/d/3952804409.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/page-data/sq/d/3952804409.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/page-data/using-typescript/page-data.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/page-data/using-typescript/page-data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/bd43accac6fd8a461ba041db541ca1c6/69585/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/bd43accac6fd8a461ba041db541ca1c6/69585/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/hackathon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/hackathon.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/home.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +69,9 @@
       <workItem from="1601318060496" duration="206000" />
       <workItem from="1601402060642" duration="470000" />
       <workItem from="1604312078802" duration="2154000" />
-      <workItem from="1618568590549" duration="1354000" />
+      <workItem from="1618568590549" duration="1526000" />
+      <workItem from="1618574234203" duration="52000" />
+      <workItem from="1619874855381" duration="612000" />
     </task>
     <servers />
   </component>
@@ -94,6 +88,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
