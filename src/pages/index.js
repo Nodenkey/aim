@@ -192,7 +192,7 @@ const Home = () => {
                                 <p>
                                     How can we deliver excellent customer service using computer vision?
                                     If got any ideas, apply to the Trestle Academy Hackathon to get the opportunity to
-                                    develop your products with 4IR, an AI company based in Switzerland.
+                                    develop your products with <a href="https://www.4th-ir.com/" target="_blank" rel="noopener noreferrer" className='link'>4th-IR</a>, an AI company based in Switzerland.
                                 </p>
                             </div>
                             <a href="http://bit.ly/taghackathon21" target="_blank" rel="noopener noreferrer"
