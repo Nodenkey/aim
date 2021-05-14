@@ -181,14 +181,6 @@ const About = () => {
                     data-target="#carouselExampleCaptions"
                     data-slide-to="5"
                   />
-                  <li
-                    data-target="#carouselExampleCaptions"
-                    data-slide-to="6"
-                  />
-                  <li
-                    data-target="#carouselExampleCaptions"
-                    data-slide-to="7"
-                  />
                 </ol>
                 <div className="carousel-inner">
                   <div className="carousel-item active">
