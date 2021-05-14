@@ -247,19 +247,6 @@ const About = () => {
                   </div>
                   <div className="carousel-item">
                     <Img
-                      fluid={images.apati.childImageSharp.fluid}
-                      className="slider-img img-fluid"
-                      alt="..."
-                    />
-                    <div className="carousel-caption d-none d-md-block slider-caption">
-                      <h5>Dr. Justice Kwame Appati</h5>
-                      <p>
-                        Board Member.(Lecturer - Computer Science Department)
-                      </p>
-                    </div>
-                  </div>
-                  <div className="carousel-item">
-                    <Img
                       fluid={images.aseda.childImageSharp.fluid}
                       className="slider-img img-fluid"
                       alt="..."
@@ -285,17 +272,6 @@ const About = () => {
                         Senior Program Officer, Regulatory Affairs(Business
                         Developer)
                       </p>
-                    </div>
-                  </div>
-                  <div className="carousel-item">
-                    <Img
-                      fluid={images.simon.childImageSharp.fluid}
-                      className="slider-img img-fluid"
-                      alt="..."
-                    />
-                    <div className="carousel-caption d-none d-md-block slider-caption">
-                      <h5>Simon Mensah</h5>
-                      <p>Board Member(Architectural Designer)</p>
                     </div>
                   </div>
                 </div>
